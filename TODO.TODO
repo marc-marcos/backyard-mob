@@ -1,0 +1,4 @@
+- Optimize the code so it runs more smoothly.
+- Parameter selection (window_size, row_number, etc...)
+- Better waiting.
+- Add more than 2 teams.
