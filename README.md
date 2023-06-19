@@ -11,18 +11,36 @@ Additionally, each cell has a 10% chance of randomly dying.
 
 ### Dependencies
 
+#### Python version
 * Python 3
 * Ubuntu (or any other Unix system) 
 * Pygame
 
+#### C++ version
+* C++
+* g++
+* sfml
+
+It may work without this requirements but it hasn't been tested
+
+
 ### Installing
 
+
 * Clone the repository
-* ``pip install -r requirements.txt``
+* ``pip install -r requirements.txt`` (Python version)
+* ``sudo apt-get install libsfml-dev`` (C++ version)
 
 ### Executing program
 
+#### Python version
 * ``python3 python_version/index.py``
+
+#### C++ version
+* ``cd c++ version``
+* ``make``
+* ``./sfml-app``
+
 
 ## Help
 
@@ -35,6 +53,9 @@ This script at the moment only runs in Unix, running it in Windows might result 
 
 * 0.1
     * Python version, runs well with relatively low row count but gets very laggy with more than 200 rows.
+* 0.2 
+    * Improved logic, now it make some sense and it happens what should happen in a real "conflict" or whatever.
+    * C++ performance improved a lot (by a factor of 5.5 times versus Python version).
 
 ## License
 
